@@ -1,0 +1,41 @@
+/* .container{
+    position: absolute;
+    left: 30%;
+    top:30%;
+    transform: translate(-30%, -30%);
+    max-width: 70% !important;
+    padding: 5rem !important;
+    background: rgba(181, 235, 249, 0.616);
+    border-radius: 50px;
+ } */
+
+ h1{
+    text-align: justify;
+    text-decoration: underline;
+    font-size: 30px !important;
+    padding: 10px;
+ }
+ h2{
+    font-size: 25px !important;
+    padding-left: 10px;
+ }
+ p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+ }
+ ul li{
+    text-align: justify;
+    padding: 2px;
+ }
+ .experience-bg{
+     background-image: url("../images/experience-background.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     background-position: center;
+ }
+
+ #experience-box{
+   background-color: #b7f0ecbd;
+   border-radius: 50px;
+ }

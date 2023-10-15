@@ -1,0 +1,73 @@
+.contact-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-section{
+    position: absolute;
+    left: 30%;
+    top:30%;
+    transform: translate(-30%, -30%);
+    max-width: 50% ;
+    padding: 5rem;
+    background-image: linear-gradient(to right, #e8e1ea9d, #48f0be);
+}
+
+.contact-section h1{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contact-section p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.contact-section ul li{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.contact-section ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.form-section{
+    position: absolute;
+    left: 70%;
+    top:30%;
+    transform: translate(-30%, -30%);
+    max-width: 50% ;
+    padding: 5rem;
+    background-image: linear-gradient(to left, rgba(135, 207, 235, 0.895), rgb(0, 0, 0));
+}
+ .form-section input{
+    margin: 10px;
+    padding: 10px;
+    width:100%;
+}
+
+ .form-section textarea{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+ }
+ .form-section button{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+ }

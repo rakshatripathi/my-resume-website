@@ -1,0 +1,15 @@
+.nav-link{
+    text-decoration: none;
+    color: white !important;
+}
+.active {
+    overflow:hidden;
+    border-bottom:2px solid #00f;
+  }
+  .container-fluid{
+    justify-content: space-around !important;
+}
+
+/* @media screen and (max-width:425px) {
+    
+} */
